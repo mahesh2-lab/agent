@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "total_messages": 0,
+    "candidate_responses": 0,
+    "interviewer_questions": 0,
+    "avg_response_length": 0.0,
+    "estimated_duration_minutes": 10
+  },
+  "technical_coverage": {},
+  "question_categories": {
+    "technical_knowledge": 0,
+    "problem_solving": 0,
+    "experience": 0,
+    "debugging": 0
+  },
+  "candidate_messages": [],
+  "interviewer_messages": [],
+  "timestamp": "2025-07-23T22:00:19.796467",
+  "context": {
+    "candidate_details": "Skills: HTML, CSS, JavaScript\nExperience: Internship at WebStart (3 months)\nEducation: B.Tech Computer Science, Local University",
+    "job_description": "We are looking for a Junior Frontend Developer (Fresher) to join our team.\nResponsibilities include assisting in building web interfaces, learning modern frameworks, and collaborating with senior developers.\nRequirements: Basic understanding of web technologies, eagerness to learn, and good communication skills.",
+    "room_name": "room-392723da"
+  }
+}

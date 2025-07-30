@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "GR_b596f216fa62",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Hello, Mahesh. My name is Cognito. Thank you for making the time to speak with me today. Our goal is to discuss your background and experience as they relate to the Full Stack Developer role here. To begin, based on your resume, you have experience with both React and Node.js. Can you describe a complex technical challenge you faced while building a MERN stack application and how you overcame it?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

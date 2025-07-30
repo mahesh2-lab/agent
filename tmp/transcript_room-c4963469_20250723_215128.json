@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "GR_62536ec0c10f",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_c917f138189d",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "once upon time a client give me"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_a44ab7ea272b",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Could you elaborate on"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_a435c8959277",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "where where we want to go to lots of data on a single page"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_651d23fd737b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "then we implement the call"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_9b3c23ea3f4b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "when we scroll the end of the page then it's called the loater another batch of data."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_418629f3ce97",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "That's interesting. Can you explain what specific challenges you faced when implementing the infinite scroll, particularly regarding performance, and how you addressed them?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_73f802b028b0",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "When we load the all data at a one time"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_325d8959d26e",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "the page crashes. <noise>"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_8399fc49452f",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "That's why we"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_b03009a771bd",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "And how did you solve the crashing issue? What specific techniques did you use to optimize the performance of the infinite scroll, especially when dealing with large amounts of data?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_39024d359699",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, so you're using a threshold to trigger the loading of the next batch of data. That's a good start. But what about the data itself? How did you optimize the rendering of a large"
+      ],
+      "interrupted": true
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "id": "GR_579d7fd3b5a6",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_98dc33770043",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I completed of project all of intent of a client that he wants to make a land build that looks awesome and I have animated once"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_577c75acc2cf",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "That's great. So, you built a landing page for a client that included animations. Can you describe the specific technologies or techniques you used to implement those animations, and why you chose them?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_a8aa0a376bda",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I use elementors for elevator on scroll library at the this library"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_850ba69a2fe4",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "make the animation look of some"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_ba8172f56d81",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "And why did you choose Elementor and the \"animate on scroll\" library specifically? Were there other options you considered, and what made you decide on these?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_7701c31b067e",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Okay I am using HTML SS and his library using"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_bd370a6dfa41",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u092c\u0947\u0938\u094d\u091f \u092b\u0949\u0930 \u0926 \u090f\u0915\u094d\u0938\u092a\u0947\u0902\u0921 \u0938\u094d\u091f\u0947\u091f\u092e\u0947\u0902\u091f"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_791fec3008f2",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "other navigator but not"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_6e0c4c5b06b3",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "use in react or other."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_6f9aaa7f7d85",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Understood. So, you chose Elementor and the \"animate on scroll\" library because you were already familiar with HTML and CSS, and this combination allowed you to quickly implement the desired"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_8d166bb101f6",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Yes."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_260f3a322c8f",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Now, let's say you were tasked with optimizing the performance of this landing page, particularly the animations. What steps would you take to ensure smooth animations, especially on devices with limited processing power? Consider factors like browser rendering, image sizes, and animation complexity.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_7390d104dc88",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Okay I rented by element this is a view."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_9fd02069a03e",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Could you"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_144c5d23016a",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I don't."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_6230d3c62c52",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay,"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_b4bfece5ab8a",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "It goes to image."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_0a1240620707",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "What specific techniques would you use to optimize those images for the web to improve performance?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

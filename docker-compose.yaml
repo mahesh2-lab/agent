@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "main.py", "start"]

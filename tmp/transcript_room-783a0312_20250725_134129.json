@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "GR_cd7002152098",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "GR_e0552c5c7f5d",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_29ef81ce7e90",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u0907\u0928 \u092e\u093e\u092f \u0907\u0902\u091f\u0930\u0936\u093f\u092a \u0906\u0908 \u0921\u0942 \u0905 \u092a\u094d\u0930\u094b\u091c\u0947\u0915\u094d\u091f \u0911\u092b \u0905 \u0915\u094d\u0932\u093e\u0907\u0902\u091f \u0926\u0948\u091f \u0939\u0940 \u0935\u093e\u0902\u091f \u091f\u0942 \u0910\u0921 \u092e\u0948\u092a \u0907\u0928 \u0907\u0928 \u0939\u093f\u091c \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0926\u0948\u091f \u0926\u0948\u091f \u0915\u0948\u0928 \u0906\u0908"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_aac7a5f1c198",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "show his location."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_0a330ed7a9a5",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "That's"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_84bb291f0fd5",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "his chop location."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_8a94017d7fd1",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "That's interesting. Could you elaborate on the specific technologies you used to implement the map functionality and how you integrated it into the client's website? Also, what were some of the performance considerations you had to keep in mind while implementing the map?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_def0d1b33672",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I use I frame to show the map on his website."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_f4653fb78fc8",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, you used an iframe. While iframes are a simple way to embed content, they can sometimes have performance implications. Can you explain why using an iframe might affect website performance, and what alternative approaches you might consider for integrating a map that could offer better performance or more control over the user experience?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_668159272020",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "<noise>"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_f3d9258211ad",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "No approach. Could you explain what you mean by that? Are you saying you didn't consider any alternative approaches, or that you're not aware of any other ways to integrate a map?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_953abea380ae",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay. There are various JavaScript mapping libraries like Leaflet or the Google Maps JavaScript API that offer more flexibility and control compared to using an iframe. Are you familiar with either of those, or have you heard of them before? If so, can you briefly describe how they might be used"
+      ],
+      "interrupted": true
+    }
+  ]
+}

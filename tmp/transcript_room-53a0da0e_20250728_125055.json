@@ -1,0 +1,211 @@
+{
+  "items": [
+    {
+      "id": "GR_35706c19a39a",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Hello Mahesh, thank you for taking the time to interview with us today. My name is Alex, and I'm a senior engineer here. We're looking to fill a Full Stack Developer role, and based on your resume, your skills and experience seem like a good fit.\n\nTo start, can you tell me about your experience with the MERN stack, and perhaps describe a specific project where you utilized all four technologies: MongoDB, Express.js, React.js, and Node.js? I'm interested in understanding your role in the project, the challenges you faced, and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_eb9abe52b3be",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Okay Hello my name is"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_1ac8d2d8bb63",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Thanks, Mahesh. I appreciate you introducing yourself. I'm ready when you are to walk me through your experience with the MERN stack and that specific project. I'm particularly interested in hearing about the challenges you encountered and how you addressed them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_e2d7c9b175f6",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I don't know project in Mon where we short the link shorten the link of long link where I used as a database and express as a backend and react as a front end."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_39acad3aaf23",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "That sounds like a practical project. Can you elaborate on the specific challenges you faced while integrating the frontend React.js application with the backend Express.js API, especially concerning data flow and state management?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_4fffa775e59b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "with connecting to front to back end but I use is a front is a net"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_cd4916a00763",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "AP"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_d41682b771a7",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "POLLER WERE"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_6b193a0545f0",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Alright."
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_830b1665fd62",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "you can call AP <noise>"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_2a1c18e75fc2",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "So you used Axios to handle the API calls between the React frontend and the Express backend. That's a common approach.\n\nNow, let's dive a little deeper. In a MERN stack application, how do you typically handle user authentication and authorization? Can you describe the process, including the technologies and techniques involved, and any security considerations you need to keep in mind?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_abe6eda7e2e5",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u092b\u0949\u0930 \u0911\u0925\u0947\u0902\u091f\u093f\u0915\u0947\u0936\u0928 \u0906\u0908 \u092f\u0942\u091c \u0926 \u0915\u094d\u0932\u0930\u094d\u0915 \u092b\u0949\u0930 \u0911\u0925\u0947\u0902\u091f\u093f\u0915\u0947\u0936\u0928 \u0939\u0940"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_4cecf19ffe60",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "clock provide the premium all the things like condition and JW session or a form of login."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_37f959efa982",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, so you used Clerk for authentication, which provides pre-built components for things like conditional rendering, JWT sessions, and login forms. That definitely simplifies the process.\n\nLet's switch gears slightly. Considering your experience with both front-end and back-end development, how do you approach optimizing the performance of a MERN stack application, focusing on both the client-side and server-side aspects?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_b6195feb3a3b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "For the client said I use for a compression of the compilation react just project."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_bef1ef9064c5",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, you use Gzip for compression on the client-side. That's a good start. What about on the server-side? What techniques do you employ to optimize the performance of your Node.js and Express.js backend, especially when dealing with a high volume of requests or large datasets?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_01c10bccfdb2",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u0906\u092f\u0941\u0937 \u0930\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0930 \u092b\u0949\u0930 \u0905 \u092e\u0932\u094d\u091f\u0940\u092a\u0932 \u0930\u093f\u0915\u094d\u0935\u0947\u0938\u094d\u091f \u092b\u094d\u0930\u0949\u092e \u0938\u093f\u0902\u0917\u0932 \u092f\u0942\u091c\u0930 \u090f\u0902\u0921 \u0905\u0926\u0930 \u0930\u0947\u0921 \u0930\u0947\u0921\u093f\u092f\u0938"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_98d41056b99a",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Alright,"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_7cb3a0dd7bff",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Q system for managing the Qs."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_3ac1484bdc80",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, so you use rate limiting to prevent abuse and Redis as a queue system. Can you elaborate on how you use Redis as a queue system? What kind of"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_35a0b2b502b3",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u092b\u0949\u0930 \u0905 \u0938\u0947\u0902\u0921\u093f\u0902\u0917 \u092e\u0947\u0932\u094d\u0938"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_641e9bd76126",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u092b\u0949\u0930 \u0905 \u0938\u0947\u0902\u0921\u093f\u0902\u0917 \u090f\u0902\u0921 \u0905 \u0928\u094b\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 \u091f\u0942 \u0926 \u092f\u0942\u091c\u0930"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_d327ed24b45f",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, so you use Redis queues for sending emails and notifications. That's a good use case.\n\nLet's move on to database interactions. Could you discuss your experience with designing and optimizing MongoDB schemas for performance, particularly when dealing with complex queries or large datasets? What indexing strategies do you typically employ, and how do you ensure data consistency and integrity?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

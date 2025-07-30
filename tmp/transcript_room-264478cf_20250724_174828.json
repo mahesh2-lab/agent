@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "GR_536a70b465fc",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_ce43633f6c5b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello my name is Mahesh and I work in the internship that on"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_1cf7e1171f77",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Thanks, Mahesh. Could you"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_8e8aed287584",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "connect the two parties with the app"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_cc2933fbd55e",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Could you describe a specific feature you worked on or a problem you solved using HTML, CSS, or JavaScript during that internship?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_d45b6b4e9087",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I don't solve any problem I was on a front end part only."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_11cd3aad6db6",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay. Since you were working on the front end, can you describe a situation where you had to implement a specific design using HTML and CSS? What were some of the challenges you encountered in making the design responsive across different devices, and how did you address them?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_b68405d679ce",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I use bootstrap for responsiveness."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_38e84199f9e7",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, you"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_188a1faf128a",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "So it can handle the response in spam."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_399b33e02233",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Can you explain how Bootstrap's grid system helps in creating responsive layouts? What are the key concepts and classes involved, and how do they ensure elements adapt to different screen sizes?\n"
+      ],
+      "interrupted": true
+    }
+  ]
+}

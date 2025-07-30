@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "GR_0a004a834008",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Hello, Mahesh. My name is Cognito. Thank you for making the time to speak with me today. Our goal is to discuss your background and experience as they relate to the Technology Consultant role here. To begin...\n\nBased on your resume, you have experience with the MERN stack. Can you describe a project where you utilized this stack, detailing the specific challenges you faced and how you overcame them?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_db91c98519c1",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_226f11336641",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Understood. Can you elaborate on your experience with implementing authentication using JWT in a MERN stack application? What security considerations did you have to keep in mind?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

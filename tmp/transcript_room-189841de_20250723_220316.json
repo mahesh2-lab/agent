@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "GR_0e74726c088c",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for"
+      ],
+      "interrupted": true
+    }
+  ]
+}

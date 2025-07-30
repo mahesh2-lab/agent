@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "id": "GR_5e636785c95f",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_9e78aafa7130",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_b9ba8b61de64",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Hi there! It's good to hear from you. Did you hear my question"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_d3767540043b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_5b0e517d9d01",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Apologies, I"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_6d4698ee1969",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_4013502f368e",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, can you hear me now? It seems we're having some audio difficulties.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_0a7a72efa325",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "My name is Mahesh and I work as a inter shift on"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_92af68d59f70",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Great, Mahesh. Thanks for confirming. Can you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_e12364d34d2b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u0928\u094b \u092e\u0948\u0928\u094d\u092f\u0941\u092b\u0948\u0915\u094d\u091a\u0930"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_1195f25464f3",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "I apologize, I am having trouble understanding. Can you please repeat that, speaking a bit more slowly and clearly?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_91c5c2cba53b",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u0921\u0942 \u092f\u0942 \u0928\u094b \u092e\u093e\u092f \u0928\u0947\u092e"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_e67052e4131a",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Yes, I do. Your name is Mahesh. Now, can you tell me about your experience with HTML, CSS, and JavaScript, especially focusing"
+      ],
+      "interrupted": true
+    },
+    {
+      "id": "GI_a8418f964a83",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Do you know my name?"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_80246fcf5cd7",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Yes, Mahesh, I know your name. Let's move on to the technical questions. Can you describe a specific instance during your internship where you used JavaScript to solve a problem or implement a feature? What were the key aspects of the code you wrote?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}

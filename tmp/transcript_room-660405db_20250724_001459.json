@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "GR_8fb36b3425f4",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Okay, let's get started. Thanks for coming in today. To begin, could you tell me about your experience with HTML, CSS, and JavaScript, especially focusing on any projects you worked on during your internship at WebStart? I'm particularly interested in hearing about the challenges you faced and how you overcame them.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_cecb5022c5a0",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "chatting application"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_7a2dfb401a8a",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "\u043d\u0430\u0439\u0442\u0438 \u0443\u0442\u043e\u0447\u043d\u0435\u043d\u0438\u0435"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_d4aa5c4d85fe",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Could you elaborate on your role in developing the chat application and the specific technologies you used? I'm interested in understanding the extent of your involvement and the depth of your understanding.\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GI_ce526c22e087",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "I used to send"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_18441123b2d0",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "You mentioned using WebSockets to send and receive data. Can you explain how you implemented the WebSocket connection and how you handled real-time updates in the chat application? Also, what were some of the challenges you faced when working with WebSockets, and how did you address them?\n"
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_64829da9b9d3",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "So you used WebSockets on the backend as well. Could you describe the architecture of the chat application, including"
+      ],
+      "interrupted": true
+    }
+  ]
+}
