@@ -48,8 +48,7 @@ COPY --from=builder /usr/local /usr/local
 
 # Add packages to PATH
 ENV PATH=/home/appuser/.local/bin:$PATH
-# Set environment variables
-ENV ENVIRONMENT=production
+
 # Copy the application source code
 COPY . .
 
