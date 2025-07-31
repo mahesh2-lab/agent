@@ -53,10 +53,11 @@ ENV PATH=/home/appuser/.local/bin:$PATH
 COPY . .
 
 # Download any dependent models at build-time
-RUN python main.py download-files
+RUN python envcheck.py
+# RUN python main.py download-files
 
 # Expose the healthcheck port
 EXPOSE 8081
 
 # Set the default command to run the application
-CMD ["python", "main.py", "start"]
+# CMD ["python", "main.py", "start"]
