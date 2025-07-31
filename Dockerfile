@@ -1,14 +1,38 @@
-# This is an example Dockerfile that builds a minimal container for running LK Agents
 # syntax=docker/dockerfile:1
+
+# ---- Builder Stage ----
+# This stage installs dependencies using build tools.
 ARG PYTHON_VERSION=3.11.6
+FROM python:${PYTHON_VERSION}-slim AS builder
+
+WORKDIR /app
+
+# Install system-level build dependencies like gcc
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    gcc \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy only the requirements file to leverage Docker's build cache
+COPY requirements.txt .
+
+# Install Python dependencies to the user directory
+RUN python -m pip install \
+    --no-cache-dir \
+    --user \
+    --no-warn-script-location \
+    -r requirements.txt
+
+
+# ---- Final Stage ----
+# This stage creates the lean, production-ready image.
 FROM python:${PYTHON_VERSION}-slim
 
-# Keeps Python from buffering stdout and stderr to avoid situations where
-# the application crashes without emitting any logs due to buffering.
+# Set environment variable to prevent output buffering
 ENV PYTHONUNBUFFERED=1
 
-# Create a non-privileged user that the app will run under.
-# See https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
+# Create a non-privileged user for security
 ARG UID=10001
 RUN adduser \
     --disabled-password \
@@ -18,31 +42,27 @@ RUN adduser \
     --uid "${UID}" \
     appuser
 
-
-# Install gcc and other build dependencies.
-RUN apt-get update && \
-    apt-get install -y \
-    gcc \
-    python3-dev \
-    && rm -rf /var/lib/apt/lists/*
-
+# Switch to the new user
 USER appuser
-
-RUN mkdir -p /home/appuser/.cache
-RUN chown -R appuser /home/appuser/.cache
-
 WORKDIR /home/appuser
 
-COPY requirements.txt .
-RUN python -m pip install --user --no-cache-dir -r requirements.txt
+# Copy installed Python packages from the builder stage
+COPY --from=builder /root/.local /home/appuser/.local
 
+# Add the user's local bin to the PATH
+ENV PATH=/home/appuser/.local/bin:$PATH
+
+# Copy the application source code
 COPY . .
 
-# ensure that any dependent models are downloaded at build-time
+# Download any dependent models at build-time
 RUN python main.py download-files
 
-# expose healthcheck port
+# FIX: Manually create the directory for transcripts
+RUN mkdir -p ./tmp
+
+# Expose the application's port
 EXPOSE 8081
 
-# Run the application.
+# Set the default command to run the application
 CMD ["python", "main.py", "start"]
