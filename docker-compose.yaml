@@ -8,5 +8,8 @@ services:
     ports:
       - "8081:8081"
     # Load environment variables from a .env file
-    env_file:
-      - .env
+    environment:
+      GOOGLE_API_KEY: AIzaSyDWBAijsxFI3eS6T_SrJG9UcGw2Jzn7WIM
+      LIVEKIT_URL: wss://test-x95zeh38.livekit.cloud
+      LIVEKIT_API_KEY: APIRQuqRavECS96
+      LIVEKIT_API_SECRET: VEoYCCrTSZEpjqwfkBtye1zj5scLyPKfuadKCiYSFweB
