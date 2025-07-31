@@ -15,6 +15,10 @@ from google import genai
 from google.genai import types
 
 load_dotenv()
+print("🔑 Loading environment variables...")
+# Ensure the GOOGLE_API_KEY environment variable is set
+
+print(f"GOOGLE_API_KEY: {os.getenv('GOOGLE_API_KEY')}")
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
