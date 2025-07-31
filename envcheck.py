@@ -23,7 +23,7 @@ def main():
     load_dotenv()
     print("Checking environment...")
     python_ok = check_python_version()
-    env_ok = check_env_var("PATH")
+    env_ok = check_env_var("GOOGLE_API_KEY") 
     if python_ok and env_ok:
         print("Environment check passed.")
     else:
