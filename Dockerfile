@@ -44,7 +44,7 @@ USER appuser
 WORKDIR /home/appuser
 
 # Copy installed Python packages from the builder stage
-COPY --from=builder /root/.local /home/appuser/.local
+COPY --from=builder /usr/local /usr/local
 
 # Add packages to PATH
 ENV PATH=/home/appuser/.local/bin:$PATH
