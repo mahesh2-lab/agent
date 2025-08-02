@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "GI_dd3e73aa1041",
+      "type": "message",
+      "role": "user",
+      "content": [
+        "Hello."
+      ],
+      "interrupted": false
+    },
+    {
+      "id": "GR_202ad02f831d",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        "Understood. Could you elaborate on the specific technologies you used within the MERN stack for that project, and why you chose those particular technologies?\n"
+      ],
+      "interrupted": false
+    }
+  ]
+}
