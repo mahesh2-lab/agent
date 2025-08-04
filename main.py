@@ -152,7 +152,7 @@ Do not penalize for language fluency or grammar if the candidate demonstrates st
 async def send_analysis_to_frontend(analysis: Dict[str, Any], room_name: str) -> None:
     """Send analysis results to the frontend via the backend API."""
     try:
-        server_url = "https://18.232.134.110"
+        server_url = "https://upload.hostmyidea.me"
         async with httpx.AsyncClient(timeout=30.0, verify=False) as client:
             response = await client.post(
                 f"{server_url}/api/analysis/receive",
@@ -234,7 +234,7 @@ async def entrypoint(ctx: agents.JobContext):
     print("✅ Job accepted and connected to room")
 
     # Now fetch room data with proper timeout handling
-    server_url = "https://18.232.134.110"  # Replace with your server's actual URL
+    server_url = "https://upload.hostmyidea.me"  # Replace with your server's actual URL
     candidate_details_text = ""
     job_description_text = ""
 
