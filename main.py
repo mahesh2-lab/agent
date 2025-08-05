@@ -24,9 +24,10 @@ def analyze_transcript_content(transcript_data: Dict) -> Dict[str, Any]:
     Analyze the transcript content to extract key insights about the interview.
     """
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        config=types.GenerateContentConfig(
+    # Prepare the request structure for the model
+    model_request = {
+        "model": "gemini-2.5-flash",
+        "config": types.GenerateContentConfig(
             system_instruction="""
                 You are a highly skilled AI recruitment analyst trained in behavioral psychology, technical evaluation, and fair-hiring practices.
 Your task is to analyze a structured interview transcript provided in JSON format and generate an objective, bias-free, and role-aligned hiring report in JSON format.
@@ -37,33 +38,17 @@ Do not penalize for language fluency or grammar if the candidate demonstrates st
 {
   "items": [ 
     { "id": "...", "type": "message", "role": "assistant" | "user", "content": ["..."], "interrupted": true | false } 
-  ],
-  "roleProfile": {
-    "title": "Frontend Developer",
-    "requiredSkills": ["JavaScript", "HTML", "CSS", "React"],
-    "softSkills": ["Communication", "Teamwork", "Problem Solving"]
-  },
-  "candidateMeta": {
-    "name": "Optional",
-    "interviewDate": "Optional",
-    "interviewRound": 1,
-    "previousScores": {
-      "communicationSkills": 6,
-      "domainKnowledge": 5
-    }
-  }
+  ]
 }
 📤 Output JSON Format:
 {
   "candidateOverview": {
-    "candidateName": "",
-    "roleApplied": "",
-    "interviewDate": "",
-    "interviewRound": 1,
-    "communicationSkills": 0,
-    "confidenceLevel": 0,
-    "domainKnowledge": 0,
-    "problemSolvingSkills": 0,
+    "candidateName": "<Candidate Name>",
+    "roleApplied": "<Job Title>",
+    "communicationSkills": 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10,
+    "confidenceLevel": 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10,
+    "domainKnowledge": 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10,
+    "problemSolvingSkills": 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10,
     "culturalFit": ""
   },
   "interviewStatistics": {
@@ -122,8 +107,11 @@ Do not penalize for language fluency or grammar if the candidate demonstrates st
             
             """
         ),
-        contents=json.dumps(transcript_data),
-    )
+        "contents": json.dumps(transcript_data),
+    }
+
+    # Send the request to the model
+    response = client.models.generate_content(**model_request)
 
     try:
         # Remove any code block markers (e.g., ```json ... ```) before parsing
@@ -234,7 +222,8 @@ async def entrypoint(ctx: agents.JobContext):
     print("✅ Job accepted and connected to room")
 
     # Now fetch room data with proper timeout handling
-    server_url = "https://upload.hostmyidea.me"  # Replace with your server's actual URL
+    # Replace with your server's actual URL
+    server_url = "https://upload.hostmyidea.me"
     candidate_details_text = ""
     job_description_text = ""
 
